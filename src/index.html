@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/dist/local.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="fixed top-0 left-0
+w-64 h-full 
+bg-yellow-300 flex flex-col pl-5 pr-2 pt-5">
+
+        <header>
+            <h2 class="text-2xl text-white pb-2">Sidebar</h2>
+        </header>
+
+        <ul class="overflow-y-auto pt3 pr-3 w-full mt-10
+        ">
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500">Dashboard</li>
+
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500 ">
+                It Has Sub
+                <ul class="feat-show">
+                    <li class="none ml-6 cursor-pointer duration-1000 hover:bg-red-600"><a href="#">Pages</a></li>
+                    <li class="none ml-6 cursor-pointer duration-1000 hover:bg-red-600"><a href="#">Elements</a></li>
+                </ul>
+
+            </li>
+
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500">Services </li>
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500">Portfolio</li>
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500">Overview</li>
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500">Shortcuts</li>
+            <li class="leading-[60px] cursor-pointer duration-1000 hover:bg-slate-500">Feedback</li>
+        </ul>
+
+
+
+        <footer class="text-xl text-white pt-4 pb-10">
+            <h2>I'm footer</h2>
+        </footer>
+
+
+
+    </nav>
+
+
+    <script src="simple.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
